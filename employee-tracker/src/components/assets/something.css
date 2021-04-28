@@ -1,0 +1,8 @@
+body{
+    background-image: url('./tree-background.png');
+}
+
+#tableCloth{
+    width: 60%;
+    margin: 200px auto 0;
+}
