@@ -2,7 +2,13 @@ body{
     background-image: url('./tree-background.png');
 }
 
+#page-header{
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.623);
+    text-align: center;
+}
+
 #tableCloth{
     width: 60%;
-    margin: 200px auto 0;
+    margin: 100px auto 0;
 }

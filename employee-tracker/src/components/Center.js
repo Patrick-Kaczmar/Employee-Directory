@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Table from "./Table"
 import API from "../utils/API";
 import People from "./People"
+import Header from "./Header"
 
 class Center extends Component {
 
@@ -18,6 +19,7 @@ class Center extends Component {
 
     render() {
         return <>
+            <Header/>
             <Table>
                 <People people={this.state.people}/>
             </Table>
