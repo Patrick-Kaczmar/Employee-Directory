@@ -17,9 +17,17 @@ class Center extends Component {
         })
     }
 
+    sortBy = (key, key2, order) => {
+        let sortType = [...this.state.people];
+        sortType.sort((a, b) => {
+            return a[key][key2] > b[key][key2] ? order * 1 : order * -1;
+        });
+        this.setState({people: sortType})
+    }
+
     render() {
         return <>
-            <Header/>
+            <Header sortBy = {this.sortBy}/>
             <Table>
                 <People people={this.state.people}/>
             </Table>
