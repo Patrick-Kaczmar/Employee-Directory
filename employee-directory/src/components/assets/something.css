@@ -10,5 +10,10 @@ body{
 
 #tableCloth{
     width: 60%;
-    margin: 100px auto 0;
+    margin: 60px auto 0;
+}
+
+form{
+    width: 13%;
+    margin: 0 auto;
 }
