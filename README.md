@@ -17,7 +17,7 @@
 ### Deployed application link - https://patrick-kaczmar.github.io/Employee-Directory/
 
 ## Demonstration
-![example-readme-demo]()
+![example-readme-demo](employee-directory/src/components/assets/employee-directory.png)
 
 ## License
 MIT License - Copyright 2021 Patrick-Kaczmar
