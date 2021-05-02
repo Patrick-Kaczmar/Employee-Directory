@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-
+This app was built using react as the front end framework to showcase the use of react components and file structure. The main features of the app use buttons and an input field from bootstrap to sort and filter data from an axios call from the random user generator api found here:  https://randomuser.me/ .
 
 ## Table of Contents
 * [Usage](#Usage)
@@ -12,7 +12,7 @@
 * [Questions](#Questions)
 
 ## Usage
-
+To use this react app simply follow the link below to the website hosted on github pages. Once on the page you will see a list of employee's that can be sorted by the various buttons or filtered by last name using the input field.
 
 ### Deployed application link - https://patrick-kaczmar.github.io/Employee-Directory/
 
